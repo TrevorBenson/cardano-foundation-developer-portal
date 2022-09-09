@@ -118,7 +118,7 @@ cardano-cli stake-address delegation-certificate \
     --out-file delegation.cert
 ```
 
-This creates a delegation certificate which delegates funds from all stake addresses associated with key `stake.vkey` to the pool belonging to cold key `cold.vkey`. If there are many staking keys as pool owners in the first step, we need delegation certificates for all of them.
+This creates a delegation certificate which delegates funds from all stake addresses associated with key `stake.vkey` to the pool belonging to cold key `cold.vkey`. If there are as many staking keys as pool owners in the first step, we need delegation certificates for all of them.
 
 #### Submit the pool certificate and delegation certificate to the blockchain
 
